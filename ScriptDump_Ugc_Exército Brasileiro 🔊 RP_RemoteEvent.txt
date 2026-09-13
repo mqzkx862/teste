@@ -1,0 +1,694 @@
+{
+  "game": "Ugc",
+  "place": "Exército Brasileiro 🔊 RP",
+  "placeId": 73283852203739,
+  "remotes": {
+    "RemoteEvent": [
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ActivateClientCommand",
+        "name": "ActivateClientCommand",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.AdminEvent",
+        "name": "AdminEvent",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Prison.Algemar",
+        "name": "Algemar",
+        "parent": "Prison",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Prison"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Prison.ArrestEvent",
+        "name": "ArrestEvent",
+        "parent": "Prison",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Prison"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.AutomatedRecruitment",
+        "name": "AutomatedRecruitment",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.BackpackItems",
+        "name": "BackpackItems",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ChangeMainVariable",
+        "name": "ChangeMainVariable",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ChangeStat",
+        "name": "ChangeStat",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.Clear",
+        "name": "Clear",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Tutorial.ColetarRecompensa",
+        "name": "ColetarRecompensa",
+        "parent": "Tutorial",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Tutorial"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.RadioComunicador.ComunicadorEvent",
+        "name": "ComunicadorEvent",
+        "parent": "RadioComunicador",
+        "parentChain": "ReplicatedStorage > Remotes > Events > RadioComunicador"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreateAlert",
+        "name": "CreateAlert",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreateBanMenu",
+        "name": "CreateBanMenu",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Beams.CreateBeam",
+        "name": "CreateBeam",
+        "parent": "Beams",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Beams"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreateCommandMenu",
+        "name": "CreateCommandMenu",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreateLog",
+        "name": "CreateLog",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreateMenu",
+        "name": "CreateMenu",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.CreatePlace",
+        "name": "CreatePlace",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.CreatePollMenu",
+        "name": "CreatePollMenu",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.GunAssets.Events.DamageIndicator",
+        "name": "DamageIndicator",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > GunAssets > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.DeactivateClientCommand",
+        "name": "DeactivateClientCommand",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.DefaultServerSoundEvent",
+        "name": "DefaultServerSoundEvent",
+        "parent": "ReplicatedStorage",
+        "parentChain": "ReplicatedStorage"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Beams.DeleteBeam",
+        "name": "DeleteBeam",
+        "parent": "Beams",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Beams"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Admin.DeltaAdmin",
+        "name": "DeltaAdmin",
+        "parent": "Admin",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Admin"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Dispositivo.DeviceEvent",
+        "name": "DeviceEvent",
+        "parent": "Dispositivo",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Dispositivo"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.Error",
+        "name": "Error",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExampleRemoteEvent",
+        "name": "ExampleRemoteEvent",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExecuteClientCommand",
+        "name": "ExecuteClientCommand",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Kick.ExpulsarComando",
+        "name": "ExpulsarComando",
+        "parent": "Kick",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Kick"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.FadeInIcon",
+        "name": "FadeInIcon",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.GunAssets.Events.Fire",
+        "name": "Fire",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > GunAssets > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.GlobalAnnouncement",
+        "name": "GlobalAnnouncement",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Global.GlobalEvent",
+        "name": "GlobalEvent",
+        "parent": "Global",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Global"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Missão.Handler",
+        "name": "Handler",
+        "parent": "Missão",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Missão"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.CaixaEletronico.Handler",
+        "name": "Handler",
+        "parent": "CaixaEletronico",
+        "parentChain": "ReplicatedStorage > Remotes > Events > CaixaEletronico"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Roubos.Handler",
+        "name": "Handler",
+        "parent": "Roubos",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Roubos"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.Hint",
+        "name": "Hint",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.InsertStat",
+        "name": "InsertStat",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.GunAssets.Events.KillIndicator",
+        "name": "KillIndicator",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > GunAssets > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.LaserEyes",
+        "name": "LaserEyes",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.LiveEventClient.LiveEvent",
+        "name": "LiveEvent",
+        "parent": "LiveEventClient",
+        "parentChain": "ReplicatedStorage > LiveEventClient"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Admin.LoggerEvent",
+        "name": "LoggerEvent",
+        "parent": "Admin",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Admin"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.LogsAtividades.LogsEvent",
+        "name": "LogsEvent",
+        "parent": "LogsAtividades",
+        "parentChain": "ReplicatedStorage > Remotes > Events > LogsAtividades"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.Message",
+        "name": "Message",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.Notice",
+        "name": "Notice",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Notification",
+        "name": "Notification",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.OpenEmotes",
+        "name": "OpenEmotes",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.UtilityService.RE.PlayAudio",
+        "name": "PlayAudio",
+        "parent": "RE",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > UtilityService > RE"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.PlayerEvents",
+        "name": "PlayerEvents",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Polichinelos",
+        "name": "Polichinelos",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Recrutamento.Prancheta",
+        "name": "Prancheta",
+        "parent": "Recrutamento",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Recrutamento"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Economy.ProductPurchased",
+        "name": "ProductPurchased",
+        "parent": "Economy",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Economy"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.RandomTeleport",
+        "name": "RandomTeleport",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RankChanged",
+        "name": "RankChanged",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.UtilityService.RE.RedeemCode",
+        "name": "RedeemCode",
+        "parent": "RE",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > UtilityService > RE"
+      },
+      {
+        "fullPath": "ReplicatedStorage.GunAssets.Events.Reload",
+        "name": "Reload",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > GunAssets > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RemoveStat",
+        "name": "RemoveStat",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ReplicateEffect",
+        "name": "ReplicateEffect",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ReplicationEffectClientCommand",
+        "name": "ReplicationEffectClientCommand",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Morte.RespawnEvent",
+        "name": "RespawnEvent",
+        "parent": "Morte",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Morte"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.UtilityService.RE.SendMessage",
+        "name": "SendMessage",
+        "parent": "RE",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > UtilityService > RE"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.SetCameraSubject",
+        "name": "SetCameraSubject",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.SetCoreGuiEnabled",
+        "name": "SetCoreGuiEnabled",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.SetCustomColor",
+        "name": "SetCustomColor",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > Remotes > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ShowBannedUser",
+        "name": "ShowBannedUser",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ShowPage",
+        "name": "ShowPage",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ShowWarning",
+        "name": "ShowWarning",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Prison.Soltar",
+        "name": "Soltar",
+        "parent": "Prison",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Prison"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Teleport",
+        "name": "Teleport",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Kick.TempKickComando",
+        "name": "TempKickComando",
+        "parent": "Kick",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Kick"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.TogglePVP",
+        "name": "TogglePVP",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.ToggleRainbow",
+        "name": "ToggleRainbow",
+        "parent": "Events",
+        "parentChain": "ReplicatedStorage > Remotes > Events"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Trainings",
+        "name": "Trainings",
+        "parent": "Remotes",
+        "parentChain": "ReplicatedStorage > Remotes"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.EconomyService.RE.Transfer",
+        "name": "Transfer",
+        "parent": "RE",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > EconomyService > RE"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.EconomyService.RE.Update",
+        "name": "Update",
+        "parent": "RE",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > EconomyService > RE"
+      }
+    ],
+    "RemoteFunction": [
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.ActiveTrainingMode",
+        "name": "ActiveTrainingMode",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.UtilityService.RF.Arrest",
+        "name": "Arrest",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > UtilityService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ItemShopService.RF.BuyOrEquip",
+        "name": "BuyOrEquip",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ItemShopService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ClothingService.RF.BuyOrEquip",
+        "name": "BuyOrEquip",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.MilitaryClothingService.RF.BuyOrEquip",
+        "name": "BuyOrEquip",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > MilitaryClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.CDP.CDPFunction",
+        "name": "CDPFunction",
+        "parent": "CDP",
+        "parentChain": "ReplicatedStorage > Remotes > Events > CDP"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ChangeSetting",
+        "name": "ChangeSetting",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.MilitaryClothingService.RF.Desequipar",
+        "name": "Desequipar",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > MilitaryClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExampleRemoteFunction",
+        "name": "ExampleRemoteFunction",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExecuteAlert",
+        "name": "ExecuteAlert",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExecuteBroadcast",
+        "name": "ExecuteBroadcast",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ExecutePoll",
+        "name": "ExecutePoll",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ClothingService.RF.GetItems",
+        "name": "GetItems",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.GetLocalDate",
+        "name": "GetLocalDate",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.GetMyCDPTime",
+        "name": "GetMyCDPTime",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.GetMyReservedServer",
+        "name": "GetMyReservedServer",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.GetPing",
+        "name": "GetPing",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.HasActiveCDP",
+        "name": "HasActiveCDP",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ClothingService.RF.IsBought",
+        "name": "IsBought",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.MilitaryClothingService.RF.IsBought",
+        "name": "IsBought",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > MilitaryClothingService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ItemShopService.RF.IsBought",
+        "name": "IsBought",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ItemShopService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.JoinReservedServer",
+        "name": "JoinReservedServer",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RemovePermRank",
+        "name": "RemovePermRank",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.ReplyToPrivateMessage",
+        "name": "ReplyToPrivateMessage",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RequestCommand",
+        "name": "RequestCommand",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.ReserveServer",
+        "name": "ReserveServer",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RestoreDefaultSettings",
+        "name": "RestoreDefaultSettings",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveAlertData",
+        "name": "RetrieveAlertData",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveBanland",
+        "name": "RetrieveBanland",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveBroadcastData",
+        "name": "RetrieveBroadcastData",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveData",
+        "name": "RetrieveData",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrievePollData",
+        "name": "RetrievePollData",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveRanksInfo",
+        "name": "RetrieveRanksInfo",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.HDAdminClient.Signals.RetrieveServerRanks",
+        "name": "RetrieveServerRanks",
+        "parent": "Signals",
+        "parentChain": "ReplicatedStorage > HDAdminClient > Signals"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ReservedService.RF.SetCDP",
+        "name": "SetCDP",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ReservedService > RF"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Functions.Radio.ShouldMuteAllRadios",
+        "name": "ShouldMuteAllRadios",
+        "parent": "Radio",
+        "parentChain": "ReplicatedStorage > Remotes > Functions > Radio"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Remotes.Events.Tutorial.TutorialEvent",
+        "name": "TutorialEvent",
+        "parent": "Tutorial",
+        "parentChain": "ReplicatedStorage > Remotes > Events > Tutorial"
+      },
+      {
+        "fullPath": "ReplicatedStorage.Modules.Packages.Knit.Services.ItemShopService.RF.Unequip",
+        "name": "Unequip",
+        "parent": "RF",
+        "parentChain": "ReplicatedStorage > Modules > Packages > Knit > Services > ItemShopService > RF"
+      }
+    ]
+  },
+  "summary": {
+    "remoteEvents": 75,
+    "remoteFunctions": 38
+  },
+  "timestamp": "2026-09-12T12:07:55Z"
+}
